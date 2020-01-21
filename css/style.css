@@ -133,21 +133,35 @@ body {
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
 }
-h1 {
+header {
   font-family: "Marcellus SC", sans-serif;
   text-align: center;
   width: 100%;
   padding: 20px 0;
-  font-size: 40px;
-  letter-spacing: 15px;
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 8px -8px black;
-  position: fixed;
+  position: sticky;
   background-color: #ffffff;
   top: 0;
   width: 100%;
   z-index: 100;
+}
+h1 {
+  font-size: 3em;
+  letter-spacing: 15px;
+  padding-bottom: 0.5em;
+}
+li {
+  font-size: 1em;
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: rgb(110, 110, 110);
+}
+a li:hover {
+  text-decoration: underline;
 }
 
 img {
@@ -156,10 +170,9 @@ img {
 }
 
 section {
-  padding: 7em;
-  height: calc(100vh - 14em);
+  height: calc(100vh - 7em);
   color: rgb(110, 110, 110);
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 }
 h2 {
   font-family: "Marcellus SC", sans-serif;
@@ -169,6 +182,10 @@ h2 {
 p {
   font-family: "Raleway", sans-serif;
   font-size: 20px;
+}
+
+.about {
+  padding: 0 1em;
 }
 
 /* Slideshow container */
@@ -244,6 +261,27 @@ p {
   background-color: #717171;
 }
 
+/* back to top button */
+#backToTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #717171;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#backToTop:hover {
+  background-color: #555;
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -278,7 +316,7 @@ p {
     font-size: 11px;
   }
   section {
-    padding: 6em 0;
-    margin: 1em;
+    margin-top: 1em;
+    height: calc(100vh - 10em);
   }
 }
