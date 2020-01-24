@@ -284,6 +284,23 @@ p {
   background-color: #555;
 }
 
+/* card styling */
+.card {
+}
+.cardHeader {
+  font-size: 2em;
+}
+.cardContainer {
+  padding: 1em;
+}
+.card-footer-item {
+  text-decoration: none;
+  padding: 10px 5px;
+}
+.card-footer-item a:hover {
+  text-decoration: underline;
+}
+
 /* Contact Form Styling */
 form {
   margin: 10px;
@@ -292,11 +309,16 @@ form {
 }
 
 input {
+  font-family: "Raleway", sans-serif;
   width: 98%;
   padding: 5px 5px;
   margin: 10px 0;
   float: left;
   border: 1px solid #777777;
+  border-radius: 4px;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
 }
 .submit {
   color: #ffffff;
@@ -304,7 +326,20 @@ input {
   width: 80px;
   height: 30px;
   border-radius: 4px;
+  margin-bottom: 15em;
   font-family: "Raleway", sans-serif;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
+}
+
+.submit:hover {
+  background-color: #555;
+}
+
+.submit:active {
+  background-color: #555;
+  transform: translateY(4px);
 }
 
 textarea {
@@ -313,7 +348,11 @@ textarea {
   width: 98%;
   overflow: scroll;
   resize: both;
+  border-radius: 4px;
   font-family: "Raleway", sans-serif;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086);
 }
 
 /* Fading animation */
