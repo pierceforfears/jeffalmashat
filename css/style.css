@@ -170,7 +170,7 @@ img {
 }
 
 section {
-  height: calc(100vh - 7em);
+  height: calc(100vh - 1em);
   color: rgb(110, 110, 110);
   scroll-snap-align: center;
 }
@@ -382,7 +382,7 @@ textarea {
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 640px) {
   .prev,
   .next,
   .text {
@@ -391,5 +391,10 @@ textarea {
   section {
     margin-top: 2em;
     height: calc(100vh - 10em);
+  }
+  form {
+    margin: 0;
+    padding: 0 1em;
+    overflow: hidden;
   }
 }
