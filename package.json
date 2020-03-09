@@ -2,9 +2,10 @@
   "name": "jeffalmashat",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/pierceforfears/jeffalmashat/issues"
   },
-  "homepage": "https://github.com/pierceforfears/jeffalmashat#readme",
+  "homepage": "https://github.com/pierceforfears/jeffalmashat",
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
