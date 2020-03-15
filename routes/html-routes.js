@@ -28,6 +28,9 @@ module.exports = function(app) {
   app.get("/thesis_show", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/thesis_show.html"));
   });
+  app.get("/contact", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/contact.html"));
+  });
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/index.html"));
   });
