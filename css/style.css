@@ -177,6 +177,10 @@ img {
   padding: 0;
 }
 
+.maintext {
+  padding: 10px;
+}
+
 section {
   /* height: calc(100vh - 1em); */
   color: rgb(110, 110, 110);
