@@ -160,7 +160,7 @@ a {
   text-decoration: none;
   color: rgb(110, 110, 110);
 }
-a li:hover {
+li a:hover {
   text-decoration: underline;
 }
 
@@ -169,8 +169,16 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.headshot {
+  float: left;
+  margin: 0 15px 0 0;
+  box-shadow: 0 2px 5px #777777;
+  border-radius: 4px;
+  padding: 0;
+}
+
 section {
-  height: calc(100vh - 1em);
+  /* height: calc(100vh - 1em); */
   color: rgb(110, 110, 110);
   scroll-snap-align: center;
 }
@@ -179,6 +187,7 @@ h2 {
   font-family: "Marcellus SC", sans-serif;
   font-size: 40px;
   padding: 20px 0;
+  text-align: center;
 }
 p {
   font-family: "Raleway", sans-serif;
@@ -389,13 +398,13 @@ textarea {
   .text {
     font-size: 11px;
   }
-  section {
+  /* section {
     margin-top: 2em;
     height: calc(100vh - 10em);
-  }
+  } */
   .about,
   .contact {
-    padding: 10em 1em;
+    padding: 0 1em;
   }
   form {
     margin: 0;
