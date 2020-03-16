@@ -162,6 +162,7 @@ a {
 }
 li a:hover {
   text-decoration: underline;
+  color: rgb(110, 110, 110);
 }
 nav {
   padding: 10px;
@@ -415,7 +416,10 @@ textarea {
   } */
   .about,
   .contact {
-    padding: 0 1em;
+    padding: 0 1em 2em;
+  }
+  .headshot {
+    float: none;
   }
   form {
     margin: 0;
