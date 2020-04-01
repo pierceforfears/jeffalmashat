@@ -432,6 +432,9 @@ textarea {
   .contact {
     padding: 0 1em 2em;
   }
+  .maintext {
+    padding: 15px 10px;
+  }
   .headshot {
     float: none;
   }
