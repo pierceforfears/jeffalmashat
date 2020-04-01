@@ -416,6 +416,14 @@ textarea {
   .text {
     font-size: 11px;
   }
+  .prev,
+  .next {
+    top: -20px;
+  }
+  .prev:hover,
+  .next:hover {
+    background-color: transparent;
+  }
   /* section {
     margin-top: 2em;
     height: calc(100vh - 10em);
