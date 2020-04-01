@@ -186,6 +186,11 @@ img {
   padding: 10px;
 }
 
+.thesistext {
+  padding: 20px 10px;
+  text-align: left;
+}
+
 section {
   /* height: calc(100vh - 1em); */
   color: rgb(110, 110, 110);
@@ -224,22 +229,23 @@ p {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 107%;
   width: auto;
-  padding: 16px;
+  padding: 12px 20px;
   margin-top: -22px;
-  color: white;
+  color: #777777;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 3px;
   user-select: none;
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px;
+  text-align: center;
 }
 
 /* On hover, add a black background color with a little bit see-through */
